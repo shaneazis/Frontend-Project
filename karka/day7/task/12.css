@@ -1,0 +1,77 @@
+.div1{
+    height: 700px;
+    margin: 20px;
+    border: solid black;
+    background-color: rgb(120, 109, 96);
+}
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+  
+    color: aliceblue;
+}
+.home{
+    height: 40px;
+    width: 90%;
+    margin: 0 60px;
+    border: solid black;
+    padding-top: 20px;
+    background-color: palevioletred;
+}
+p{
+    display: inline;
+    margin: 50px;
+}
+/* .go{ */
+    /* margin-left: 330px; */
+
+.search{
+    margin-left: 330px;
+}
+.go{
+    background-color: black;
+    color: aliceblue;
+}
+.art{
+    height: 450px;
+    width: 70%;
+    border: solid black;
+    margin: 10px 0 10px 58px;
+    background-color: aliceblue;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+}
+h2{
+    text-align: center;
+}
+.head{
+    height: 450px;
+    width: 18%;
+    border: solid black;
+    display: inline-block;
+    margin: 10px 10px;
+    background-color: palevioletred;
+}
+.list{
+    text-decoration: underline;
+    
+}
+.list1{
+    margin: 10px 0;
+}
+.copy{
+    height: 40px;
+    width: 90%;
+    margin: 0 57px;
+    border: solid black;
+    padding-top: 20px;
+    text-align: center;
+    background-color: aliceblue;
+   
+}
+.rel{
+    color: black;
+}

@@ -1,0 +1,98 @@
+header{
+    border: solid;
+}
+.head{
+    background-color: orange;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.body1{
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+
+}
+.button{
+width: 20%;
+height: 30px;
+margin: 10px;
+color: orange;
+background-color: aliceblue;
+}
+.button:hover{
+    background-color: blueviolet;
+    color: azure;
+}
+.body2{
+    background-color: rgb(119, 131, 134);
+    height: fit-content;
+    border-bottom: solid black 5px;
+    margin: 0px;
+    display: flex;
+}
+.content1{
+flex: 1;
+/* border: solid; */
+margin: 10px;
+background-color: aliceblue;
+}
+.content2{
+flex: 1;
+
+/* border: solid; */
+margin: 10px;
+background-color: aliceblue;
+}
+.content3{
+flex: 2;
+margin: 10px;
+background-color: aliceblue;
+
+/* border: solid; */
+}
+.content1img{
+    /* border: solid; */
+    height: 150px;
+    margin: 10px;
+}
+.con1p1{
+    margin: 10px;
+
+}
+.go{
+    margin: 10px;
+}
+.content3img{
+    /* border: solid; */
+    height: 250px;
+    margin: 10px;
+}
+.copyright{
+    background-color: orange;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.img3{
+    height: 250px;
+    width: 100%;
+    
+}
+.img1{
+    height: 150px;
+    width: 100%;
+}
+.click{
+    margin: 15px;
+    width: 80%;
+}
+.do{
+    margin: 15px;
+    width: 90%;
+}
+.mainblock{
+    height: 700px;
+    margin: 20px;
+}

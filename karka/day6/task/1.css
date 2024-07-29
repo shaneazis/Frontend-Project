@@ -1,0 +1,83 @@
+.example{
+    height: 600px;
+    width: 100%;
+    border: solid black;
+    background-color: aquamarine;
+    vertical-align: top;
+}
+
+.header{
+    height: 10px;
+    width: 95%;
+    border: solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+.nav{
+    height: 10px;
+    width: 95%;
+    border: solid black;
+    margin: 20px;
+    padding: 20px;
+background-color: azure;
+}
+.div{
+    height: 200px;
+    width: 97.5%;
+    border: solid black;
+    margin: 20px;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+.div2{
+    height: 200px;
+    width: 60%;
+    
+  
+    
+    display: inline-block
+    
+}
+.section{
+    height: 60px;
+    width: 90%;
+    border: solid black;
+    margin: 20px;
+    background-color: blueviolet;
+    
+    
+    
+    
+
+    
+}
+
+.article{
+    height: 60px;
+    width: 90%;
+    border: solid black;
+    margin: 20px;
+    background-color: blue;
+    
+    
+    
+}
+.aside{
+    height: 180px;
+    width: 34%;
+    border: solid black;
+    margin: 10px;
+    display: inline-block;
+    background-color: brown;
+}
+.footer{
+    height: 10px;
+    width: 95%;
+    border: solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(138, 13, 120);
+
+}

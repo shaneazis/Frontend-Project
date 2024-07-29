@@ -1,0 +1,160 @@
+.head{
+    /* border: solid black; */
+    width: 70;
+    position: relative;
+}
+.head1{
+    /* border: solid; */
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+    width: 70%;
+    top: 150px;
+    left: 200px;
+    border-radius: 35px 35px 0px 0px;
+    background-color: rgb(31, 155, 118);
+}
+.travel{
+    position: relative;
+    left: 170px;
+
+}
+.board{
+    position: relative;
+    left: 100px;
+    font-size: 30px;
+}
+.head2{
+    height: 300px;
+    /* border: solid; */
+    width: 70%;
+    /* position: relative; */
+    top: 149px;
+    left: 200px;
+    display: flex;
+}
+.name{
+    height: 300px;
+    /* border: solid; */
+    width: 70%;
+    position: ab;
+    
+}
+.name2{
+    height: 430px;
+    /* border: solid; */
+    border-left: dashed;
+    border-right: solid whitesmoke;
+    width: 30%;
+    position: relative;
+    top: -75px;
+    
+}
+.head3{
+    /* border: solid; */
+    height: 60px;
+    width: 70%;
+    /* position: relative; */
+    left: 200px;
+    top: 145px;
+    border-radius: 0 0 35px 35px;
+    background-color: rgb(31, 155, 118);
+}
+.ibrah{
+    position: relative;
+    left: 170px;
+}
+.ibrap{
+    position: relative;
+    left: 170px;
+}
+.ibrab{
+    position: relative;
+    left: 130px;
+}
+.ibras{
+    position: relative;
+    left:465px;
+    top: -50px;
+}
+.ibram{
+    position: relative;
+    left: 140px;
+}
+.ibrac{
+    position: relative;
+    left: 465px;
+    bottom: 15px;
+}
+.ibrah1{
+    margin-top: 100px;
+    position: relative;
+    left: 10px;
+
+}
+.ibrap1{
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+.ibrah1fr{
+    position: relative;
+    left: 10px;
+    bottom: 40px;
+
+}
+.ibrah1t{
+    position: relative;
+    bottom: 60px;
+    left: 10px;
+}
+.ibrah1f{
+    position: relative;
+    bottom: 60px;
+    left: 10px;
+}
+.ibrad{
+    position: relative;
+    top: 80px;
+    right: 155px;
+}
+.ibra17{
+    position: relative;
+    top: 80px;
+    right: 100px;
+}
+.ibrab1{
+    position: relative;
+    left: 60px;
+    top: 200px;
+}
+.ibras1{
+    position: relative;
+    left: 235px;
+    top: 150px;
+}
+.ibram1{
+    position: relative;
+    left: 70px;
+    bottom: 65px;
+}
+.ibrac1{
+    position: relative;
+    left: 235px;
+    bottom: 120px;
+}
+.animation{
+    position: relative;
+    height: 120px;
+    width: 120px;
+    left: 10px;
+    top: 140px;
+}
+.animation2{
+    height: 60px;
+    width: 60px;
+    /* border: solid; */
+    position: relative;
+    left: 800px;
+    top: 73px;
+}

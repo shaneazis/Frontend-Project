@@ -1,0 +1,365 @@
+.mainbody{
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0 0;
+    height: 70px;
+    background-color:#333;
+    color: wh;
+    
+}
+ul{
+    display: flex;
+    align-items: center;
+     
+
+}
+li{
+    list-style: none;
+    font-size: 30px;
+    /* margin-right:40px; */
+    border: solid;
+    padding: 18px 20px;
+    border-width: 0 1px;
+     
+}
+  li
+    .xmark{
+        border-right: none;
+    }
+    .cart{
+        background-color: #7AC64D;
+    }
+    li:hover{
+        background-color: #222;
+    }
+.public{
+    display: flex;
+    /* border: solid; */
+    
+   
+}
+.listmonitor{
+    /* margin-right: 200px; */
+    font-size: 30px;
+}
+.color{
+    font-size: 30px;
+   
+    margin-top: 0px;
+    /* background-color: rgb(106, 92, 92); */
+    /* border: solid; */
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    
+    
+}
+   .color1{
+         padding: 10px;
+         color: aliceblue;
+   }
+.pub{
+   /* border: solid; */
+   background-color: #222;
+   font-size: 13px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}   
+  .pub1{
+    padding: 10px;
+    color: aliceblue;
+  }
+  .head1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid ; */
+    border-bottom: solid  #ecf6fc ;
+    
+  
+    
+    height: 150px;
+  }
+      .face{
+        height: 30px;
+        width: 40px;
+        border: solid whitesmoke;
+        border-radius: 50%;
+        font-size: large;
+        text-align: center;
+        padding-top: 10px;
+        position: relative;
+        right: 10px;
+
+      }
+      .twit{
+        height: 30px;
+        width: 40px;
+        right: 5px;
+        position: relative;
+        border: solid whitesmoke;
+        border-radius: 50%;
+        font-size: large;
+        text-align: center;
+        padding-top: 10px;
+      }
+      .insta{
+        height: 30px;
+        width: 40px;
+        border: solid whitesmoke;
+        border-radius: 50%;
+        font-size: large;
+        text-align: center;
+        padding-top: 10px;
+      }
+      .dribble{ height: 30px;
+        width: 40px;
+        border: solid whitesmoke;
+        border-radius: 50%;
+        font-size: large;
+        position: relative;
+        left: 5px;
+        text-align: center;
+        padding-top: 10px;}
+.socialmedia{
+    display: flex;
+    position: relative;
+    left: 40px;
+    /* border: solid; */
+    height: 150px;
+    align-items: center;
+    flex: 1;
+    
+
+}
+.text{
+    position: relative;
+    display: flex;
+    left: 0px;
+    flex: 1;
+    /* border: solid; */
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    bottom: 10px;
+}
+.book{
+    position: absolute;
+    top: 70px;
+    font-size: 15px;
+    letter-spacing: 2.9px;
+    color: rgba(0, 0, 0, 0.3);
+    
+}
+.searchmenu{
+    display: flex;
+    position: relative;
+    flex: 1;
+    /* border: solid; */
+    right: 70px;
+    /* border: solid; */
+    /* border: solid; */
+    height: 50px;
+    /* border-radius: 20px; */
+    /* padding: 30px; */
+    
+    
+}
+   .search1{
+      position: relative;
+      right: 1px;
+      left: 180px;
+      width: 50%;
+      padding-left: 15px;
+      font-size: 15px;
+      border-radius: 20px 0 0px 20px;
+      background-color: rgba(0, 0, 0, 0.06);
+      border: none;
+   }
+   .search2{
+    position: relative;
+    right: px;
+    left: 180px;
+    padding-right: 20px;
+    border-radius: 0 20px 20px 0;
+    font-size: 18px;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    border: none;
+    background-color: #95adbe ;
+    
+   }
+   span{
+    color: #ff7a5c;
+   }
+   .head2{
+    display: flex;
+    /* border: solid; */
+    justify-content: center;
+   }
+   .menubar{
+    display: flex;
+    /* border: solid; */
+    /* position: relative; */
+
+    
+   }
+   h3{
+    padding-left: 20px;
+   }
+   h3:hover{
+    color: #95adbe;
+    position: relative;
+    
+   }
+   h3::before{
+    content: '';
+    position: absolute;
+    left: 10px;
+    bottom: -20px;
+    
+    width: 10%;
+    /* border: solid; */
+    height: 3px;
+    background-color: #636861;
+    transition: all .5s;
+
+   }
+   h3:hover::before{
+           width: 100%;
+   }
+.head3{
+  /* border: solid; */
+  position: relative;
+  z-index: 0;
+ 
+}
+.img2{
+  height: 650px;
+  width: 100%;
+  position: sticky;
+}
+.insideblock{
+  /* border: solid; */
+  height: 650px;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 250px;
+  z-index: 1;
+}
+.good{
+  font-size: 50px;
+  position: relative;
+  top: 100px;
+  letter-spacing: 2px;
+  color: #0b140b;
+  text-shadow: #a6bae9af 1px 2px 2px;
+}
+.small{
+  position: relative;
+  top: 50px;
+  font-size: 18px;
+  color: #0b140b;
+  text-shadow: #a6bae9af 1px 2px 2px;
+}
+.view{
+  position: relative;
+  top: 100px;
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  background-color: #95adbe;
+  color: #ecf6fc;
+  border: none;
+}
+.explore{
+  position: relative;
+  top: 100px;
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  border: none;
+}
+
+.head4{
+  height: 300px;
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -5px;
+  
+ 
+}
+   .circle1,.circle2,.circle3,.circle4{
+    height: 400px;
+    display: flex;
+    /* border: solid; */
+    /* flex: 1; */
+    width: 20%;
+    position: relative;
+    ;
+    flex-direction: column;
+    align-items: center;
+    
+
+   }
+   
+  
+  .cir1,.cir2,.cir3,.cir4{
+    height: 200px;
+    position: relative;
+    width: 200px;
+    border: solid;
+    border-radius: 50%;
+    top: -100px;
+    background-color: rgb(239, 237, 237);
+    border: none;
+  }
+  .childrenh,.romanceh{
+    position: absolute;
+    font-size: 25px;
+    top: 90px;
+    
+  }
+  .romancep{
+    position: absolute ;
+    font-size: 20px;
+    top: 160px;
+    width: 80%;
+    color: #636861;
+    text-align: center;
+  }
+  .fantasy{
+    position: relative;
+    left: 40px;
+    top: 30px;
+    height: 120px;
+    z-index: 2;
+    
+  }
+  .modelcircle{
+    border: solid;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 120px;
+    bottom: 50px;
+    background-color: hsla(0, 92%, 62%, 0.851);
+    border: none;
+    transition: .5s;
+  }
+  .modelcircle:hover,.cir1:hover,.cir2:hover,.cir3:hover,.cir4:hover{
+    .modelcircle{
+      transform: translate(-30px);
+      background-color: white;
+      transition: .5s;
+    }
+    background-color: #95adbe;
+  }
+  

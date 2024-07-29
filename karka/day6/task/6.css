@@ -1,0 +1,51 @@
+.div1{
+    height: 500px;
+    width: 70%;
+    border: solid black;
+    background-color:  rgb(6, 145, 6);
+}
+.head{
+    height: 40px;
+    width: 100%;
+    /* border: solid black; */
+    border-bottom: solid black;
+    background-color: yellow;
+    text-align: center;
+    color: beige;
+}
+.div2{
+    height: 410px;
+    width: 100%;
+    /* border: solid black; */
+    margin: 0px;
+    padding: 0px;
+}
+ .nav{ 
+    height: 410px;
+    width: 21%;
+    border-right: solid blue;
+    /* border-bottom: solid black; */
+    display: inline-block;
+    text-align:center;
+    background-color: blue;
+    padding: 0px;
+    
+    color: beige;
+}
+.art{
+    height: 410px;
+    width: 78%;
+    /* border: solid black; */
+    display: inline-block;
+    padding: 0%;
+    text-align: center;
+    color: beige;
+    background-color: rgb(6, 145, 6);
+} 
+.foot{
+height: 49px;
+width: 100%;
+background-color: red;
+text-align: center;
+color: beige;
+}

@@ -1,0 +1,4 @@
+let a="         hellow         "
+let start=a.trimStart()
+console.log(start)
+console.log(start.length)

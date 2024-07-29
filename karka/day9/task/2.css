@@ -1,0 +1,124 @@
+.body1{
+    background-color: rgba(11, 3, 3, 0.827);
+    color: aliceblue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body2{
+    margin: 10px 0px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    border: solid;
+    padding: 5px;
+}
+.button1{
+    width: 19%;
+    margin: 3px;
+    
+    height: 25px;
+    display: flex;
+    
+}
+.button1:hover{
+    background-color: rgb(102, 44, 57);
+    color: aliceblue;
+}
+.body3{
+    border-bottom: solid black 6px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(165, 173, 182);
+}
+.this{
+
+margin: 10px;
+flex: 3;
+}
+.aside{
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+header{
+    /* background-color: black; */
+  
+}
+.copy{
+    background-color: rgb(165, 173, 182) ;
+    display: flex;
+    height: 50px;
+    
+    
+    
+}
+.copyp{
+    margin-left:10px ;
+}
+.head2{
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    
+}
+.copy2{
+    flex: 1.5;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.aside2{
+    flex: 1;
+    background-color: white;
+    height: 200px;
+}
+.copy3{
+    flex: 1;
+    margin-left: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.aside3{
+    flex: 1;
+
+}
+.this2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.body5{
+    background-color:  rgba(46, 44, 44, 0.405);
+    color: aliceblue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button2{
+    height: 100px;
+}
+.lastbody2{
+    /* border: solid black; */
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(165, 173, 182);
+}
+.aside3{
+    flex: 1;
+    background-color: white;
+    
+}
+.button3{
+    margin: 5px 0px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    
+}

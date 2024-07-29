@@ -1,0 +1,4 @@
+let a="       hellow     "
+let b=a.trimEnd()
+console.log(b)
+console.log(b.length)

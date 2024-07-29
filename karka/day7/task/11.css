@@ -1,0 +1,131 @@
+.div1{
+    height: 700px;
+    margin: 20px;
+    border: solid black;
+}
+.karka{
+    height: 80px;
+    border-bottom: solid;
+}
+.h1{
+    text-align: center;
+    
+}
+.p1{
+    text-align: center;
+}
+.link{
+    height: 30px;
+    border-bottom: solid black;
+    background-color: rgb(181, 152, 152);
+}
+.l4{
+    margin-left: 75%;
+}
+a{
+    margin: 0px 30px;
+}
+.title{
+height: fit-content;
+border: solid black;
+width: 96%;
+margin: 10px;
+margin-bottom: 0;
+display: inline-block;
+}
+.image{height: 100px;
+    width: 90%;
+border: solid black;
+background-color: rgba(78, 48, 48, 0.114);
+margin: 5px 20px;
+}
+h2{
+    margin: 5px;
+}
+.p2{
+    margin:  0px 5px;
+}
+.p3{
+    margin: 0px 5px;
+}
+.p4{
+    margin: 0px 5px;
+}
+.div2{
+    height: fit-content;
+    /* border: solid black; */
+    padding: 0px;
+}
+.title2{
+    margin-top: 0px;
+}
+.head1{
+    height: 480px;
+    /* border: solid black; */
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding-right: 16px;
+    
+}
+.div3{
+    height: fit-content;
+    width: 65%;
+    /* border: solid red; */
+display: inline-block;
+margin: 0;
+
+}
+.about{
+    height: fit-content;
+    width: 100%;
+    border: solid black;
+    padding-left: 19px;
+    margin: 0;
+    border-top: none;
+    border-right: none;
+
+}
+.img{
+    height: 100px;
+    width: 90%;
+border: solid black;
+margin: 5px 20px;
+background-color: rgba(123, 84, 84, 0.114);
+
+}
+h3{
+    margin: 0;
+}
+.p5{
+    margin: 0;
+}
+.popular{
+    height: 210px;
+    border: solid black;
+    width: 100%;
+    padding-left: 20px;
+    margin: 5px 0;
+    border-right: none;
+}
+.im{height:fit-content;
+    width: 90%;
+border: solid black;
+margin: 5px 20px;
+background-color: rgba(123, 84, 84, 0.114);
+
+}
+.follow{
+    height: 80px;
+    border: solid black;
+    width: 100%;
+    padding-left: 20px;
+    border-right: none;
+}
+.foot{
+    height: 60px;
+    /* border: solid black; */
+    background-color: beige;
+    text-align: center;
+    padding-top: 24px;
+}

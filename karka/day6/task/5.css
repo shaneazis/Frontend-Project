@@ -1,0 +1,51 @@
+.div1{
+    height: 500px;
+    width: 70%;
+    border: solid black;
+    background-color: rgb(209, 213, 216);
+}
+.nav{
+    height: 20px;
+    width: 90%;
+    border: solid black;
+    margin: 0px 15px;
+    text-align: center;
+    background-color: rgb(93, 114, 114);
+    
+}
+.intro{
+    height: 40px;
+    width: 82%;
+    border: solid black;
+    margin: 10px 50px;
+    text-align: center;
+    background-color: rgb(93, 114, 114);
+    
+}
+.main{
+    height: 250px;
+    width: 45%;
+    border: solid black;
+    margin:20px 50px ;
+    background-color: rgb(93, 114, 114);
+    display: inline-block;
+    text-align: center;
+}
+.slide{
+    height: 250px;
+    width: 31%;
+    border: solid black;
+    display: inline-block;
+    background-color: rgb(93, 114, 114);
+    text-align: center;
+}
+.foot{
+    height: 100px ;
+    width: 82%;
+    border: solid black;
+    margin: 10px 50px;
+    text-align: center;
+    background-color: rgb(93, 114, 114);
+    
+
+}

@@ -1,0 +1,7 @@
+console.log("azis shane")
+console.log(25)
+console.log("27/04/1999")
+console.log("Rohini college of engineering and technology")
+console.log(2021)
+console.log(9487747215)
+console.log("paraicode")

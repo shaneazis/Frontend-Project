@@ -1,0 +1,245 @@
+.author{
+    display: flex;
+    /* border: solid; */
+    justify-content: space-between;
+    padding: 0 100px;
+    background-color: rgba(236, 251, 251, 0.751);
+    height: 80px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 40%;
+    height: 80px;
+    
+    
+
+}
+li:hover{
+    color: rgb(87, 200, 195);
+    border-bottom: solid lightblue;
+    background-color: rgb(221, 221, 212);
+
+}
+.authorh{
+    color: rgb(81, 251, 242);
+}
+li{
+    /* border-bottom: solid; */
+    position: relative;
+    width: 50%;
+    padding-bottom: px;
+    /* background-color: antiquewhite; */
+    left: 10px;
+    list-style-type: none;
+    padding-left: 10px;
+    height: 50px;
+    top: -18px;
+    padding-top: 30px;
+    
+}
+   .thisimg{
+    height: 400px;
+    width: 100%;
+   }
+ .body2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+ }  
+ .this{
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    /* border: solid; */
+    padding-top: 95px;
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0.158);
+
+    
+ }
+ .thish{
+    font-size: 40px;
+    position: relative;
+    top: -30px;
+    
+ }
+ .thisp{
+    font-size: 20px;
+    width: 25%;
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    color: white;
+ }
+ .thisb{
+    position: relative;
+    top: -50px;
+    height: 30px;
+    width: 20%;
+    font-size: 20px;
+    background-color: rgba(250, 235, 215, 0);
+    color: aliceblue;
+    border: solid white;
+ }
+ .body3{
+   display: flex;
+   /* border: solid; */
+   height: 400px;
+   justify-content: center;
+   
+   
+ }
+ .circle1,.circle2,.circle3,.circle4{
+   width: 22%;
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+   /* border: solid; */
+ }
+ .cir1{
+   height: 100px;
+   width: 100px;
+   border: solid #48ddee;
+   border-radius: 50%;
+   position: relative;
+
+
+ }
+ .custom{
+   position: relative;
+   font-size: 20px;
+   top: 15px;
+ }
+ .customp{
+   position: relative;
+   display: flex;
+   /* justify-content: center; */
+   /* align-items: center; */
+   /* left: 10px; */
+   text-align: center;
+   width: 80%;
+   /* font-size: 2px; */
+ }
+ .customb{
+   width: 30%;
+   color: white;
+   background-color: #48ddee;
+   border: none;
+ }
+ .animation{
+   font-size: 47px;
+   position: relative;
+   display: flex;
+   top: 25px;
+   left: 22px;
+ }
+ .animation1,.animation2{
+   font-size: 47px;
+   position: relative;
+   display: flex;
+   top: 25px;
+   left: 32px;
+ }
+ .head4{
+   height: 700px;
+   /* border: solid; */
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   top: -80px;
+ }
+ .img1{
+   /* border: solid; */
+   display: flex;
+   height: 250px;
+   width: 27%;
+   /* flex: 1; */
+   margin: 5px;
+   margin-left: 30px;
+   
+   position: relative;
+   top: 15px;
+   
+   
+ }
+ .img2{
+   /* border: solid; */
+   display: flex;
+   height: 250px;
+   width: 27%;
+   /* flex: 1; */
+   margin: 5px;
+   margin-left: 30px;
+   
+   position: relative;
+   top: -45px;
+ }
+ .img3{
+   /* border: solid; */
+   display: flex;
+   width: 30%;
+   height: 200px;
+ }
+ /* .img4{
+   border: solid;
+   display: flex;
+   height: 200px;
+   width: 30%;
+ }
+ .img5{
+   border: solid;
+   display: flex;
+   height: 200px;
+   width: 30%;
+ }
+ .img6{
+   border: solid;
+   display: flex;
+   width: 30%;
+   height: 200px;
+ } */ 
+  .port{
+ font-size: 50px;
+ text-align: center;
+ /* position: relative;
+ left: 50%; */
+  }
+  .portfoliobox{
+   position:relative;
+   display: flex;
+   /* border: solid; */
+   width: 100%;
+   background-color: rgba(248, 243, 238, 0.433);
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  }
+  .seeb{
+   width: 10%;
+   text-align: center;
+   height: 30px;
+   position: relative;
+   top: -140px;
+   background-color: #48ddee;
+   border: none;
+   color: white;
+  }
+  .img7{
+   width: 100%;
+  }

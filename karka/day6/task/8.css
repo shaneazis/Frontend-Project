@@ -1,0 +1,44 @@
+.div1{
+    height: 500px;
+    width: 70%;
+    border: solid black;
+}
+.head{
+    height: 100px;
+    width: 100%;
+    border-bottom: solid pink;
+    text-align: center;
+    background-color: pink;
+}
+.navi{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    /* border-bottom: solid black; */
+    background-color: rgb(193, 1, 203);
+}
+.left{
+    height: 250px;
+    width: 40%;
+    /* border-bottom: solid black; */
+    /* border-right: solid black; */
+    display: inline-block;
+    text-align: center;
+    background-color: palevioletred;
+}
+.main{
+    height: 250px;
+    width: 59%;
+    /* border: solid black; */
+    text-align: center;
+    /* border-bottom: solid black; */
+    display: inline-block;
+    
+}
+.foot{
+    height: 95px;
+    width: 100%;
+ border-bottom: solid rgb(231, 96, 249);
+ text-align: center;
+    background-color: rgb(231, 96, 249);
+}

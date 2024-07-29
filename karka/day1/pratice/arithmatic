@@ -1,0 +1,12 @@
+let a=100
+let b=15
+let add=a+b
+console.log(add)
+let substract=a-b
+let divide=a/b
+let muliply=a*b
+let modulo=a%b
+console.log(substract)
+console.log(divide)
+console.log(muliply)
+console.log(modulo)

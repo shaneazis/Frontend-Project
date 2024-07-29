@@ -1,0 +1,73 @@
+.div1{
+    height: 600px;
+    width: 69.2%;
+    /* border: solid black; */
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    border: solid black;
+    background-color: beige;
+    text-align: center;
+    
+}
+.home{
+    height: 50px;
+    width: 100%;
+    border: solid black;
+    margin: 10px 0;
+    background-color: beige;
+    text-align: center;
+
+}
+.feat{
+
+height: 150px;
+background-color: beige;
+text-align: center;
+    width: 100%;
+    border: solid black;}
+    .div2{
+        height: 180px;
+    width: 100%;
+    /* border: solid black; */
+    text-align: center;
+    margin: 10px 0;
+    }
+    .column1{
+        height: 180px;
+        background-color: beige;
+    width: 32.5%;
+    border: solid black;
+    text-align: center;
+    display: inline-block;
+   
+}
+.column2{
+    height: 180px;
+    width: 32.3%;
+    background-color: beige;
+    border: solid black;
+    text-align: center;
+    display: inline-block;
+
+}
+.column3{
+    height: 180px;
+    background-color: beige;
+    width: 33%;
+    border: solid black;
+    text-align: center;
+    display: inline-block;
+}
+.copy{
+    height: 50px;
+    width: 99.5%;
+    text-align: center;
+    border: solid black;
+    background-color: beige;
+}
+a{
+    margin: 30px ;
+    font-weight: 600;
+}

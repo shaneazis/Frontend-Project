@@ -1,0 +1,94 @@
+.div1{
+    height: 500px;
+    width: 70%;
+    border: solid black;
+    background-color: rgb(84, 121, 121);
+}
+ .head{ 
+    height: 60px;
+    width: 100%;
+    border-bottom: solid black;
+    text-align: center;
+    background-color: aquamarine;
+}
+.div2{
+    height: 210px;
+    width: 100%;
+    /* border: solid black; */
+    display: inline-block;
+    text-align: center;
+}
+.intro{
+    height: 180px;
+    width: 50%;
+    border: solid black;
+    display: inline-block;
+    margin:10px 10px ;
+    text-align: center;
+    background-color: aquamarine;
+    vertical-align: top;
+
+}
+.div3{  height: 180px;
+    width: 45%;
+    /* border: solid black; */
+    display: inline-block;
+    margin: 10px 0;
+  
+}
+
+
+.hero{
+    height: 110px;
+    width: 100%;
+    border: solid black;
+    display: inline-block;
+    background-color: aquamarine;
+    text-align: center;
+}
+.call{
+    height: 55px;
+    width: 100%;
+    border: solid black;
+    background-color: aquamarine;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0;
+} 
+.features{height: 60px;
+    width: 97%;
+    border: solid black;
+    margin: 0px 10px;
+    background-color: aquamarine;
+    text-align: center;
+
+}
+.more{
+    height: 60px;
+    width: 50%;
+    border: solid black;
+    background-color: aquamarine;
+    text-align: center;
+    margin: 10px 10px;
+    display: inline-block;
+}
+.call2{
+    height: 60px;
+    width: 45%;
+    border: solid black;
+    display: inline-block;
+    background-color: aquamarine;
+    text-align: center;
+
+}
+    
+.foot{
+    height: 75.5px;
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    border-top: solid black;
+    
+    
+
+}

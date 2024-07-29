@@ -1,0 +1,45 @@
+/* div{
+    background-color: lightslategray;
+    display: flex;
+    width: 200px;
+    padding: 10px;
+    flex-wrap: wrap;
+
+    
+}
+h1{
+    background-color: rgb(1, 83, 32);
+    margin: 2px;
+    padding: 5px;
+    color: white;
+} */
+ .box{
+    height: 600px;
+    width: 100%;
+    background-color: bisque;
+    flex-wrap: wrap;
+   
+    display: flex;
+    flex-direction: column;
+ }
+ .box1{
+    
+    background-color: rgb(112, 16, 16);
+    flex: 1;
+    margin: 10px;
+    
+ }
+ .box2{
+    
+    background-color: rgb(53, 184, 16);
+    flex: 1;
+    margin: 10px;
+   
+ }
+ .box3{
+
+    background-color: rgb(13, 2, 75);
+    flex: 1;
+    margin: 10px;
+  
+ }

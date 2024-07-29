@@ -1,0 +1,50 @@
+.div1{
+    height: 500px;
+    width: 80%;
+    border: solid black;
+}
+.header{
+   height: 50px;
+   width: 100%;
+   border: solid black;
+   border-bottom: none;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   text-align: center;
+}
+.navigation{
+    height: 50px;
+   width: 100%;
+   border: solid black;
+   border-left: none;
+   border-right: none;
+   text-align: center;
+   
+}
+.div2{
+    height: 250px;
+    width: 100%;
+    border-bottom: solid black;
+
+}
+.index{
+    height: 250px;
+    width: 30%;
+    border-right: solid black;
+    display: inline-block;
+    text-align: center;
+}
+.content{
+    height: 250px;
+    width: 67%;
+    text-align: center;
+    
+    display: inline-block;
+}
+.footer{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    
+}
