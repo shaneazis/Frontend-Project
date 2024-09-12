@@ -1,0 +1,138 @@
+.header{
+    height: 120vh;
+    /* border: solid; */
+}
+.head1{
+    height: 10%;
+ background-color: rgb(198, 223, 245);
+    /* border: solid; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.circle{
+      height: 40px;
+      background-color: rgb(135, 188, 235);
+      width: 40px; 
+      border-radius: 50%;
+      margin-right: 20px;
+      
+      
+}
+.head2{
+    height: 40%;
+    background-color: rgb(135, 188, 235);
+    margin: 30px;
+    margin-top: 10px;
+}
+.head3{
+     height: 40%;
+     /* border: solid; */
+     margin:  0 30px;
+
+     display: flex;
+     margin-top: -20px;
+}
+.box1{
+    height: 100%;
+    width: 20%;
+    background-color: orange;
+}
+.line{
+    height: 100%;
+    width: 80%;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.line1,.line10,.line11{
+      height: 20%;
+      width: 99%;
+      /* border: solid; */
+      margin-top: 20px;
+      margin-left: 10px;
+      background-color: rgb(234, 231, 231);
+}
+.line10{
+    margin-top: 0;
+}
+.footer{
+    height: 30%;
+    /* border: solid; */
+    /* background-color: yellow; */
+    
+    display: none;
+    margin: 30px 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.line4,.line41{
+    height: 25%;
+      
+
+      /* margin-top: 20px; */
+      /* margin-left: 29px; */
+      background-color: rgb(234, 231, 231);
+      margin-top: 30px;
+}
+.line41{
+    margin-top: 0px;
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+      .footer{
+        display: block;
+      }
+      .line{
+        /* border: solid; */
+        width: 40%;
+      }
+      .line1,.line10,.line11{
+        width: 95%;
+      }
+      .box1{
+        width: 60%;
+      }
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .footer{
+        display: none;
+    }
+    .line11{
+        display: none;
+    }
+    .head3{
+        display: flex;
+        flex-direction: column;
+        /* border: solid; */
+        height: 60%;
+        
+        
+    }
+    .box1{
+        width: 100%;
+        
+    }
+    .line{
+        /* border: solid; */
+        width: 100%;
+        margin-top: 10px;
+        
+    }
+    .line10{
+        margin: 0;
+        width: 100%;
+        margin-top: 35px;
+    }
+    .line1{
+        margin: 0;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+   .head2{
+      height: 30%;
+   }
+   .circle{
+    width: 8%;
+   }
+}

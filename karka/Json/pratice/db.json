@@ -1,0 +1,16 @@
+{
+    "details":[
+        {
+            "name":"azis",
+            "age":25
+        },
+        {
+            "name":"luffy",
+            "age":22
+        },
+        {
+            "name":"zoro",
+            "age":25
+        }
+    ]
+}

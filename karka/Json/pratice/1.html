@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 2px solid;
+        }
+    </style>
+</head>
+<body>
+    <!-- <input type="text" id="input"> -->
+    <button onclick="calls()">click</button>
+    <br>
+    <br>
+    <table id="myTable">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        
+      </tr>
+    </table>
+    <br>
+  
+    <script>
+        // let obj={
+        //     name:"azis",
+        //     fun:function calls(){
+        //         alert("hi")
+            
+
+        //     }
+        // }
+        let arr = [];
+        function calls(){
+            fetch("db.json").then((response)=>response.json().then((res)=>{
+            console.log(res.details)
+            let table = document.getElementById("myTable");
+           
+
+    
+   
+   
+    let data=res.details
+     for(i=0;i<data.length;i++){
+        let row = table.insertRow(-1);
+        let cell1 = row.insertCell(0);
+        let cell2 = row.insertCell(1);
+        cell1.innerText=res.details[i].name;
+        cell2.innerText=res.details[i].age;
+
+
+     }
+   
+    
+    
+        
+           res.push(arr)
+           console.log(arr)
+        }))}
+    </script>
+</body>
+</html>

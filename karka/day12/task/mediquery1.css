@@ -1,0 +1,135 @@
+.header{
+    height: 100vh;
+    /* border: solid; */
+}
+.head1{
+    height: 100px;
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    height: 100px;
+    /* border: solid; */
+    width: 49%;
+    /* margin-left: 5px; */
+    background-color: orange;
+    
+}
+.box2{
+    height: 100px;
+    /* border: solid; */
+    width: 49%;
+    /* margin-right: 5px; */
+    background-color: orange;
+}
+.head2{
+    height: 200px;
+    /* border: solid; */
+    background-color: rgb(4, 232, 4);
+    margin-top: 20px;
+}
+.head3{
+    height: 180px;
+    /* border: solid; */
+    margin-top: 20px;
+    display: flex;
+}
+.headclass1,.headclass2,.headclass3{
+    height: 180px;
+    /* border: solid; */
+    width: 33.3%;
+    margin-right: 5px;
+    background-color: rgb(74, 74, 244);
+}
+.headclass3{
+   margin-right: 0;
+}
+.footer{
+    height: 130px;
+    /* border: solid; */
+    display: flex;
+    margin-top: 20px;
+}
+.foot1,.foot2,.foot3,.foot4{
+    height: 130px;
+    /* border: solid; */
+    width: 25%;
+    margin-left: 5px;
+    background-color: rgb(213, 210, 210);
+}
+
+.foot1{
+    margin-left: 0;
+}
+.foot4{
+    margin-right: 0;
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    .head3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .headclass1,.headclass2,.headclass3{
+        height: 90px;
+        /* border: solid; */
+        width: 100%;
+        margin-top: 10px;
+
+        
+}
+.footer{
+    /* border: solid; */
+    height: 205px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.foot1,.foot2,.foot3,.foot4{
+   
+
+    height: 90px;
+    width: 48.8%;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 2px;
+
+
+
+}
+.foot2,.foot4{
+    margin-right: 0px;
+}
+
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .head3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 300px;
+    }
+    .headclass1,.headclass2,.headclass3{
+        height: 150px;
+        /* border: solid; */
+        width: 100%;
+        margin-top: 10px;
+
+        
+}
+.foot1,.foot2,.foot3{
+    display: none;
+    
+}
+.footer{
+    width: 100%;
+    /* border: solid; */
+    height: 50px;
+}
+.foot4{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+}
+}

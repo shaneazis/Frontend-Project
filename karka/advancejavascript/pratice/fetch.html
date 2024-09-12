@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 2px solid;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="fetchdetails()">click</button>
+    <br>
+    <br>
+    <table id="myTable">
+      <tr>
+        <th>userId</th>
+        <th>Id</th>
+        <th>title</th>
+        <th>Status</th>
+        
+      </tr>
+    </table>
+    <br>
+
+    <script>
+        let fetchdetails=async()=>{
+            try{
+                let response=await fetch("fetch.json")
+                let data=await response.json()
+                console.log(data)
+                
+                let table = document.getElementById("myTable");
+        
+            for(i=0;i<data.length;i++){
+               let row = table.insertRow(-1);
+               let cell1 = row.insertCell(0);
+               let cell2 = row.insertCell(1);
+               let cell3 = row.insertCell(2);
+               let cell4 = row.insertCell(3);
+
+               cell1.innerText=data[i].userId;
+               cell2.innerText=data[i].id;
+               cell3.innerText=data[i].title;
+               cell4.innerText=data[i].completed?"completed":"Not completed";
+            }
+            }
+            catch(e){
+                console.log(e)
+            }
+          
+       
+        }
+        
+    </script>
+    
+</body>
+</html>

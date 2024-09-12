@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+    <!-- <div id="divison">Zoro</div>
+    <button onclick="handleClick()">Click</button> -->
+    <!-- <div id="example">
+        <span style="display: none;">hidden text</span>visible text
+    </div> -->
+    <!-- <input type="text" id="name">
+    <input type="password" id="pass">
+    <button onclick="handleClick()">click</button>  -->
+
+    <!-- <script src="./getElementById.js">
+
+    </script> -->
+      <input type="text" id="input">
+     <p id="para"></p>
+     <button onclick="handleClick()">click</button>
+     <button onclick="handleRemove()">remove</button> 
+     
+     <button onclick="handleAdd()">add</button>
+
+     <script>
+        function handleClick(){
+         let input=document.getElementById('input').value
+         let para=document.getElementById('para')
+        
+        para.innerHTML=input
+     
+        }
+        function handleRemove(){
+         para.remove()
+        }
+
+        function handleAdd(){
+        let heading=document.createElement('h1')
+            heading.innerHTML="hi hello "
+            let body=document.getElementById('body')
+            body.appendChild(heading)
+        }
+        
+</script>
+    
+</body>
+</html>

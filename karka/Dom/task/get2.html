@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="name">
+    <input type="password" id="pass">
+    <input type="date" id="date">
+    <input type="number" id="age">
+    <select name="place" id="place">
+        <option value="che">chennai</option>
+        <option value="kk">kanyakumari</option>
+        <option value="thirunelvelli">thirunelvelli</option>
+        <option value="madurai">madurai</option>
+    </select>
+    <input type="radio" name="gender" id="male" value="male"  class="gender"><label for="male">male</label>
+    <input type="radio" name="gender" id="female" value="female "class="gender">
+    <label for="female">female</label>
+    <input type="radio" name="gender" id="other" value="other" class="gender"><label for="other">other</label>
+
+    <input type="checkbox" name="" id="html" class="skills" value="html"><label for="html">html</label>
+    <input type="checkbox" name="" id="css" class="skills" value="css"><label for="css">css</label>
+    <input type="checkbox" id="javascript" class="skills" value="javascript"><label for="javascript">js</label>
+    
+<br>
+    <button onclick="handleClick()">click</button>
+    <script>
+        function handleClick(){
+         let name=document.getElementById('name').value
+         let pass=document.getElementById('pass').value
+         let date=document.getElementById('date').value
+         let age=document.getElementById('age').value
+         let place= document.getElementById('place').value
+         let gender=document.getElementsByClassName("gender")
+         let skills=document.querySelectorAll('.skills')
+         
+            for(let i=0;i<gender.length;i++){
+                if(gender[i].checked){
+                    gender=gender[i].value
+                }
+                let arr=[]
+                for(let i=0;i<skills.length;i++){
+                    if(skills[i].checked){
+                        arr.push(skills[i].value)
+                        
+                    }
+                }
+         let details={
+            Myname:name,
+            Mypass:pass,
+            MyDOB:date,
+            Myage:age,
+            myplace:place,
+            mygender:gender,
+            myskills:arr
+         }
+         console.log(details)
+         document.getElementById('name').value=""
+         document.getElementById('pass').value=""
+         document.getElementById('date').value=""
+        document.getElementById('age').value=""
+         document.getElementById('place').value=""
+         document.querySelectorAll('skills').value=""
+        }
+    }
+    </script>
+</body>
+</html>
